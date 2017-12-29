@@ -169,10 +169,6 @@
 		75BCF3E11FF3949C00DE00A3 /* HDRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BCF31A1FF3949B00DE00A3 /* HDRecordView.m */; };
 		75BCF3E21FF3949C00DE00A3 /* HelpDeskUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BCF31C1FF3949B00DE00A3 /* HelpDeskUI.m */; };
 		75BCF3E31FF3949C00DE00A3 /* HelpDeskUIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75BCF31E1FF3949B00DE00A3 /* HelpDeskUIResource.bundle */; };
-		75C3BAB31FF4E72D00BCD19A /* HelpDeskLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C3BAB11FF4E72C00BCD19A /* HelpDeskLite.framework */; };
-		75C3BAB41FF4E72D00BCD19A /* HelpDeskLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75C3BAB11FF4E72C00BCD19A /* HelpDeskLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		75C3BAB51FF4E72D00BCD19A /* HyphenateLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C3BAB21FF4E72D00BCD19A /* HyphenateLite.framework */; };
-		75C3BAB61FF4E72D00BCD19A /* HyphenateLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75C3BAB21FF4E72D00BCD19A /* HyphenateLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		75C3BACC1FF4E88B00BCD19A /* AppDelegate+HelpDesk.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3BAB91FF4E88B00BCD19A /* AppDelegate+HelpDesk.m */; };
 		75C3BACD1FF4E88B00BCD19A /* HDChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3BABB1FF4E88B00BCD19A /* HDChatViewController.m */; };
 		75C3BACE1FF4E88B00BCD19A /* HFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3BABD1FF4E88B00BCD19A /* HFileViewController.m */; };
@@ -191,8 +187,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				75C3BAB41FF4E72D00BCD19A /* HelpDeskLite.framework in Embed Frameworks */,
-				75C3BAB61FF4E72D00BCD19A /* HyphenateLite.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,8 +526,6 @@
 		75BCF31C1FF3949B00DE00A3 /* HelpDeskUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpDeskUI.m; sourceTree = "<group>"; };
 		75BCF31E1FF3949B00DE00A3 /* HelpDeskUIResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HelpDeskUIResource.bundle; sourceTree = "<group>"; };
 		75BCF4111FF39A2A00DE00A3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		75C3BAB11FF4E72C00BCD19A /* HelpDeskLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HelpDeskLite.framework; path = HuanxinKefu/HXFramework/HelpDeskLite.framework; sourceTree = "<group>"; };
-		75C3BAB21FF4E72D00BCD19A /* HyphenateLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HyphenateLite.framework; path = HuanxinKefu/HXFramework/HyphenateLite.framework; sourceTree = "<group>"; };
 		75C3BAB81FF4E88B00BCD19A /* AppDelegate+HelpDesk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+HelpDesk.h"; sourceTree = "<group>"; };
 		75C3BAB91FF4E88B00BCD19A /* AppDelegate+HelpDesk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+HelpDesk.m"; sourceTree = "<group>"; };
 		75C3BABA1FF4E88B00BCD19A /* HDChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDChatViewController.h; sourceTree = "<group>"; };
@@ -561,9 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75BCF34D1FF3949B00DE00A3 /* hdlibopencore-amrwb.a in Frameworks */,
-				75C3BAB31FF4E72D00BCD19A /* HelpDeskLite.framework in Frameworks */,
 				75BCF34C1FF3949B00DE00A3 /* hdlibopencore-amrnb.a in Frameworks */,
-				75C3BAB51FF4E72D00BCD19A /* HyphenateLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,8 +563,6 @@
 		75BCEF311FF3390000DE00A3 = {
 			isa = PBXGroup;
 			children = (
-				75C3BAB11FF4E72C00BCD19A /* HelpDeskLite.framework */,
-				75C3BAB21FF4E72D00BCD19A /* HyphenateLite.framework */,
 				75BCEF3C1FF3390000DE00A3 /* HuanxinKefu */,
 				75BCEF3B1FF3390000DE00A3 /* Products */,
 			);
