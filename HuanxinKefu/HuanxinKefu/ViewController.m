@@ -72,7 +72,7 @@
 - (IBAction)loginOutAction:(id)sender {
     HError *error = [[HChatClient sharedClient] logout:YES];
     if (error) { //登出出错
-        NSLog(@"退出登录出错");
+        NSLog(@"退出登录出错"); 
     } else {//登出成功
         NSLog(@"退出登录成功");
     }
