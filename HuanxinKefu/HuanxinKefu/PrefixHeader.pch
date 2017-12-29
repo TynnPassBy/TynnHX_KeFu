@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  HuanxinKefu
+//
+//  Created by 刘庆贺 on 2017/12/27.
+//  Copyright © 2017年 huiranwangluo. All rights reserved.
+//
+
+//不包含实时音视频的这样添加
+#ifdef __OBJC__
+#import <HelpDeskLite/HelpDeskLite.h>
+#import "HelpDeskUI.h"
+#import "SVProgressHUD.h"
+#import "LocalDefine.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+//#import "其他头文件"
+#endif
